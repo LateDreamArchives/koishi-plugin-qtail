@@ -1,0 +1,42 @@
+{
+  "name": "koishi-plugin-qtail",
+  "description": "qtail for Koishi",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/XiaozhiSans/koishi-plugin-qtail/blob/main/LICENSE"
+    },
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/XiaozhiSans/qtail-js/blob/main/LICENSE"
+    }
+  ],
+  "main": "./main.js",
+  "dependencies": {
+    "qtail-js": "^1.0.0"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "koishi": {
+    "description": "qtail for Koishi"
+  },
+  "packageManager": "yarn@1.22.0",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaozhiSans/koishi-plugin-qtail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XiaozhiSans/koishi-plugin-qtail/issues"
+  },
+  "homepage": "https://github.com/XiaozhiSans/koishi-plugin-qtail#readme",
+  "keywords": [
+    "koishi",
+    "koishi-plugin",
+    "qtail"
+  ]
+}
