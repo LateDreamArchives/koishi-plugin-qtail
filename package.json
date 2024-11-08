@@ -5,16 +5,16 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/XiaozhiSans/koishi-plugin-qtail/blob/main/LICENSE"
+      "url": "https://github.com/LateDream-awa/koishi-plugin-qtail/blob/main/LICENSE"
     },
     {
       "type": "MPL-2.0",
-      "url": "https://github.com/XiaozhiSans/qtail-js/blob/main/LICENSE"
+      "url": "https://github.com/LateDream-awa/qtail-js/blob/main/LICENSE"
     }
   ],
   "main": "./main.js",
   "dependencies": {
-    "qtail-js": "^1.0.0"
+    "qtail-js": "^1.0.1-beta.0"
   },
   "peerDependencies": {
     "koishi": "^4.18.0"
@@ -22,18 +22,18 @@
   "koishi": {
     "description": "qtail for Koishi"
   },
-  "packageManager": "yarn@1.22.0",
+  "packageManager": "yarn@1.22.22",
   "devDependencies": {
     "typescript": "^5.6.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XiaozhiSans/koishi-plugin-qtail.git"
+    "url": "git+https://github.com/LateDream-awa/koishi-plugin-qtail.git"
   },
   "bugs": {
-    "url": "https://github.com/XiaozhiSans/koishi-plugin-qtail/issues"
+    "url": "https://github.com/LateDream-awa/koishi-plugin-qtail/issues"
   },
-  "homepage": "https://github.com/XiaozhiSans/koishi-plugin-qtail#readme",
+  "homepage": "https://github.com/LateDream-awa/koishi-plugin-qtail#readme",
   "keywords": [
     "koishi",
     "koishi-plugin",

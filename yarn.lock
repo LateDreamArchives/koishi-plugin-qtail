@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-qtail-js@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/qtail-js/-/qtail-js-1.0.0.tgz#ece3a1a3c1d3f99e9a67bdc8e0f6e2ae8cc15f65"
-  integrity sha512-7PH+NodPWsHYgjBeYdQ6YkqlPwvjLSSazWXga14w4rlWkJAVCIQXlWyCbN6iLzcgJjrCHHkkk1MiDwbmTs2RsA==
+qtail-js@^1.0.1-beta.0:
+  version "1.0.1-beta.0"
+  resolved "https://mirrors.huaweicloud.com/repository/npm/qtail-js/-/qtail-js-1.0.1-beta.0.tgz#717c5f362c98c4f231c8a88272a5da9974c524fb"
+  integrity sha512-tyIVRlDTFAdBIO9FfA/9Ny+4CXh8SZvvg2zFrSHLsHw0E0fcDSD4G/n/pGDrnKk98VBfaWb320HZ4QvGDi7RZw==
 
 typescript@^5.6.3:
   version "5.6.3"
