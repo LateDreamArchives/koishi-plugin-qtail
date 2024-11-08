@@ -3,7 +3,7 @@ name: build and release
 on:
   push:
     tags: ['*']
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   main:
@@ -20,7 +20,7 @@ jobs:
       - name: build
         run: |
           yarn
-          npx tsc main.ts --declaration
+        #  npx tsc main.ts --declaration # 不用编译, 因为已经编译好了
       - name: archive
         uses: thedoctor0/zip-release@master
         with:
