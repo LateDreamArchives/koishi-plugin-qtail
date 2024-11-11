@@ -1,15 +1,15 @@
 {
-  "name": "koishi-plugin-qtail",
+  "name": "@latedream/koishi-plugin-qtail",
   "description": "qtail for Koishi",
   "version": "0.1.1-beta.0",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/LateDream-awa/koishi-plugin-qtail/blob/main/LICENSE"
+      "url": "https://github.com/iLateDreami/koishi-plugin-qtail/blob/main/LICENSE"
     },
     {
       "type": "MPL-2.0",
-      "url": "https://github.com/LateDream-awa/qtail-js/blob/main/LICENSE"
+      "url": "https://github.com/iLateDreami/qtail-js/blob/main/LICENSE"
     }
   ],
   "main": "./main.js",
@@ -28,14 +28,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LateDream-awa/koishi-plugin-qtail.git"
+    "url": "git+https://github.com/iLateDreami/koishi-plugin-qtail.git"
   },
   "bugs": {
-    "url": "https://github.com/LateDream-awa/koishi-plugin-qtail/issues"
+    "url": "https://github.com/iLateDreami/koishi-plugin-qtail/issues"
   },
-  "homepage": "https://github.com/LateDream-awa/koishi-plugin-qtail#readme",
+  "homepage": "https://github.com/iLateDreami/koishi-plugin-qtail#readme",
   "keywords": [
-    "koishi",
     "koishi-plugin",
     "qtail"
   ]
