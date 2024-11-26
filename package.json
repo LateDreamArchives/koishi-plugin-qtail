@@ -1,41 +1,36 @@
 {
   "name": "@latedream/koishi-plugin-qtail",
   "description": "qtail for Koishi",
-  "version": "0.1.1-beta.0",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/iLateDreami/koishi-plugin-qtail/blob/main/LICENSE"
-    },
-    {
-      "type": "MPL-2.0",
-      "url": "https://github.com/iLateDreami/qtail-js/blob/main/LICENSE"
-    }
-  ],
+  "version": "0.1.1",
+  "license": "MIT",
   "main": "./main.js",
   "dependencies": {
     "qtail-js": "^1.0.1-beta.0"
   },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
   "peerDependencies": {
-    "koishi": "^4.18.0"
+    "koishi": "^4.3.2"
   },
   "koishi": {
     "description": "qtail for Koishi"
   },
-  "packageManager": "yarn@1.22.22",
-  "devDependencies": {
-    "typescript": "^5.6.3"
+  "scripts": {
+    "build": "npx tsc ./main.ts --declaration",
+    "publish": "yarn build && yarn npm publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iLateDreami/koishi-plugin-qtail.git"
+    "url": "git+https://github.com/latedreamdev/koishi-plugin-qtail.git"
   },
   "bugs": {
-    "url": "https://github.com/iLateDreami/koishi-plugin-qtail/issues"
+    "url": "https://github.com/latedreamdev/koishi-plugin-qtail/issues"
   },
-  "homepage": "https://github.com/iLateDreami/koishi-plugin-qtail#readme",
+  "homepage": "https://github.com/latedreamdev/koishi-plugin-qtail#readme",
   "keywords": [
     "koishi-plugin",
     "qtail"
-  ]
+  ],
+  "packageManager": "yarn@4.5.0"
 }
