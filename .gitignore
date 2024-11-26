@@ -14,3 +14,6 @@
 
 .vscode/
 node_modules/
+
+main.js
+main.d.ts
