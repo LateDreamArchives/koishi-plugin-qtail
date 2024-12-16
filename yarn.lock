@@ -17,9 +17,9 @@ __metadata:
   linkType: soft
 
 "qtail-js@npm:^1.0.1-beta.0":
-  version: 1.0.1-beta.0
-  resolution: "qtail-js@npm:1.0.1-beta.0"
-  checksum: 10c0/d1a83ec3d484a09302a4873ae833b40f6a366c3eb7dca7fc3dc12a942a40c29b77e0552a1d768f063ccea204cdfdf62c6b19612186a7c3d5c6c8c57054cd0acb
+  version: 1.0.2
+  resolution: "qtail-js@npm:1.0.2"
+  checksum: 10c0/0ec5cc0b0c1ae3ea2ce1922a9342477898ea5c48ba3b9622f97451a877b9a83d423f38e543a2c3d65395db17753117503501cb379cd803f180ced26e549e0aab
   languageName: node
   linkType: hard
 
