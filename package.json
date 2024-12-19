@@ -1,7 +1,7 @@
 {
   "name": "@latedream/koishi-plugin-qtail",
   "description": "qtail for Koishi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "LateDream <latedream_@outlook.com> (https://latedream.us.kg/about/)",
   "license": "MIT",
   "type": "module",
