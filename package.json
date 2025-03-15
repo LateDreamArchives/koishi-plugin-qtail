@@ -7,7 +7,7 @@
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "dependencies": {
-    "qtail-js": "^1.0.2"
+    "qtail-js": "^2.0.0"
   },
   "devDependencies": {
     "qtail-js-types": "^1.0.1",
