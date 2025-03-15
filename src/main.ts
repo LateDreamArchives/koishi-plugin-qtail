@@ -20,7 +20,8 @@ export const apply = (ctx: Context) => {
 		.alias('qt')
 		.action((_, nick, tail) => {
 			try {
-				const result = qtail.generate(nick, tail);
+				const Qtail = new qtail(nick, tail, true);
+				const result = Qtail.generate();
 				_.session?.send(result);
 			} catch(e: any) {_.session?.send(e.message)}
 		});
