@@ -10,28 +10,11 @@ __metadata:
   resolution: "@latedream/koishi-plugin-qtail@workspace:."
   dependencies:
     qtail-js: "npm:^2.0.0"
-    qtail-js-types: "npm:^1.0.1"
     typescript: "npm:^5.6.3"
   peerDependencies:
     koishi: ^4.3.2
   languageName: unknown
   linkType: soft
-
-"qtail-js-types@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "qtail-js-types@npm:1.0.1"
-  dependencies:
-    qtail-js: "npm:^1.0.1-beta.0"
-  checksum: 10c0/984fcaa1344e66a420a1256f235b06faa20de3b8699b0650b1aa564a1e0a35ec91797985c05cc684e63929ae207183bbdae394c32b63f733eb91cece0b592313
-  languageName: node
-  linkType: hard
-
-"qtail-js@npm:^1.0.1-beta.0":
-  version: 1.0.2
-  resolution: "qtail-js@npm:1.0.2"
-  checksum: 10c0/0ec5cc0b0c1ae3ea2ce1922a9342477898ea5c48ba3b9622f97451a877b9a83d423f38e543a2c3d65395db17753117503501cb379cd803f180ced26e549e0aab
-  languageName: node
-  linkType: hard
 
 "qtail-js@npm:^2.0.0":
   version: 2.0.0

@@ -12,7 +12,7 @@
 		"incremental": true,
 		"skipLibCheck": true,
 		"esModuleInterop": true,
-		"types": ["koishi", "qtail-js-types"]
+		"types": ["koishi"]
 	},
 	"include": ["./src"]
 }
