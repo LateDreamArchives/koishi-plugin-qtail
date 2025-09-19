@@ -2,15 +2,22 @@
   "name": "@latedream/koishi-plugin-qtail",
   "description": "qtail for Koishi",
   "version": "0.2.0",
-  "author": "LateDream <latedream_@outlook.com> (https://latedream.us.kg/about/)",
+  "author": "LateDream <xiaozhisans@qq.com> (https://about.latedream.cn/)",
   "license": "MIT",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
   "dependencies": {
-    "qtail-js": "^2.0.0"
+    "qtail-js": "^2.1.1"
   },
   "devDependencies": {
-    "typescript": "^5.6.3"
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
   },
   "peerDependencies": {
     "koishi": "^4.3.2"
@@ -30,5 +37,10 @@
     "koishi-plugin",
     "qtail"
   ],
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "pnpm@10.14.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }
